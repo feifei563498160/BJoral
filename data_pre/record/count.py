@@ -454,7 +454,9 @@ def count_attribute():
 def detect_special_record():
     logger_zhusu_yaoqiu=log_file("zhusu_yaoqiu", "zhusu_yaoqiu_log")
     inpath='records'
-    pattern=''.join([line.strip() for line in codecs.open('sources/remove_seg.txt','r','utf-8').readines()])
+    pattern=''.join([line.strip() for line in codecs.open('sources/remove_seg.txt','r','utf-8').readlines()])
+    jieba.load_userdict("sources/user_dict.txt")
+    zhusu_all=[]
     for rt, dirs, files in os.walk(inpath):
         for f in files:
             fname = os.path.splitext(f)
@@ -467,8 +469,13 @@ def detect_special_record():
 #                 s1=u'''要求'''.encode('utf-8')
                 zhusu=re.findall(r'主  诉：([\s\S]*)现病史',record)[0].strip()
                 
-                logger_zhusu_yaoqiu.info(re.sub(pattern,'',zhusu)) if re.sub(pattern,'',zhusu).startswith('要求')
-                
+                if re.sub(pattern,'',zhusu).startswith('要求'):
+                    zhusu_all.append(re.sub(pattern,'',zhusu))
+    
+    for item in sorted(Counter(zhusu_all).iteritems(),key=lambda asd:asd[1], reverse=True):
+        logger_zhusu_yaoqiu.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
+        logger_zhusu_yaoqiu.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
+               
 
 if __name__ == '__main__':
 #     inpath='records'
@@ -481,7 +488,7 @@ if __name__ == '__main__':
 #     filter_oral_concepts()
 #     merge_concept()
 #     part_seg()
-#     detect_special_record()
+    detect_special_record()
 #     filter_segs()
-    count_attribute()
+#     count_attribute()
     
