@@ -22,13 +22,13 @@ reload(sys)
 sys.setdefaultencoding('utf8') 
 
 
-logger_split_freq=log_file('log_split_freq.log','split_freq_log')
-logger_concept=log_file('log_concepts.log','concepts_log')
-logger_test=log_file('test.log','test_log')
-logger_word_freq=log_file('log_word_freq.log','word_freq_log')
-logger_exp=log_file('log_exp.log','exp_log')
-logger_filter_oral=log_file('log_filter_oral.log','filter_oral_log')
-logger_oral_word=log_file('log_oral_word.log','oral_word_log')
+logger_split_freq=log_file('log/log_split_freq.log','split_freq_log')
+logger_concept=log_file('log/log_concepts.log','concepts_log')
+logger_test=log_file('log/test.log','test_log')
+logger_word_freq=log_file('log/log_word_freq.log','word_freq_log')
+logger_exp=log_file('log/log_exp.log','exp_log')
+logger_filter_oral=log_file('log/log_filter_oral.log','filter_oral_log')
+logger_oral_word=log_file('log/log_oral_word.log','oral_word_log')
 
 logger_zhusu=log_file("seg/log_zhusu", "zhusu_log")
 logger_xianbingshi=log_file("seg/log_xianbingshi", "xianbingshi_log")
@@ -42,7 +42,7 @@ logger_chuzhi=log_file("seg/log_chuzhi", "chuzhi_log")
 
 logger_test=log_file("seg/log_test", "test_log")
 
-logger_attr=log_file("attr_test", "attr_log")
+logger_attr=log_file("log/attr_test", "attr_log")
 
 def filter_concept(concept):
     c1=len(concept)<7
@@ -450,13 +450,20 @@ def count_attribute():
     for item in sorted(Counter(chuzhi_all).iteritems(),key=lambda asd:asd[1], reverse=True):
         logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1]))
         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
-        
-def detect_special_record():
-    logger_zhusu_yaoqiu=log_file("zhusu_yaoqiu", "zhusu_yaoqiu_log")
+  
+def you(zhusu):  
+    zhusu_pos=postag.cut(zhusu)
+    for word in zhusu_pos:
+        if word.word=='有':
+#             print zhusu_pos.next()
+            return zhusu_pos.next().word
+
+def special_record_path():
     inpath='records'
-    pattern=''.join([line.strip() for line in codecs.open('sources/remove_seg.txt','r','utf-8').readlines()])
+    pattern=r'|'.join([line.strip() for line in codecs.open('sources/remove_seg.txt','r','utf-8').readlines()]).replace('\\s','\s').encode('utf-8')
     jieba.load_userdict("sources/user_dict.txt")
     zhusu_all=[]
+    chis=[]
     for rt, dirs, files in os.walk(inpath):
         for f in files:
             fname = os.path.splitext(f)
@@ -466,16 +473,69 @@ def detect_special_record():
             nrows = table.nrows
             for i in range(2,nrows):
                 record=table.cell(i,5).value.encode('utf-8')
-#                 s1=u'''要求'''.encode('utf-8')
-                zhusu=re.findall(r'主  诉：([\s\S]*)现病史',record)[0].strip()
+                zhusu=re.findall(r'主\s+诉：([\s\S]*)现病史',record)[0].strip()
+                zhusu_clean=re.sub(pattern,'',zhusu)   
+                s1=u'双侧颞下颌'.encode('utf-8')
+                if s1 in zhusu:
+                    print new_path.decode('gbk')
+                    
+                    
+def detect_special_record():
+    logger_zhusu_yaoqiu=log_file("zhusu_yaoqiu", "zhusu_yaoqiu_log")
+    inpath='records'
+    pattern=r'|'.join([line.strip() for line in codecs.open('sources/remove_seg.txt','r','utf-8').readlines()]).replace('\\s','\s').encode('utf-8')
+    jieba.load_userdict("sources/user_dict.txt")
+    zhusu_all=[]
+    chis=[]
+    for rt, dirs, files in os.walk(inpath):
+        for f in files:
+            fname = os.path.splitext(f)
+            new_path = inpath+os.sep+fname[0] + fname[1]
+            data=xlrd.open_workbook(new_path)
+            table=data.sheets()[0]
+            nrows = table.nrows
+            for i in range(2,nrows):
+                record=table.cell(i,5).value.encode('utf-8')
+#                 print chardet.detect(record).encode('utf-8')
+#                 s1=u'左上前牙缺损数字个月'.encode('utf-8')
+#                 print chardet.detect(r'主  诉')
+                zhusu=re.findall(r'主\s+诉：([\s\S]*)现病史',record)[0].strip()
                 
-                if re.sub(pattern,'',zhusu).startswith('要求'):
-                    zhusu_all.append(re.sub(pattern,'',zhusu))
-    
+#                 if s1 in zhusu:
+#                     print new_path.decode('gbk')
+                zhusu_clean=re.sub(pattern,'',zhusu)
+#                 yous.append(you(zhusu_clean))
+#                 if chardet.detect(zhusu_clean)['encoding']!='utf-8':
+#                     print zhusu_clean,chardet.detect(zhusu_clean)
+#                 if zhusu_clean.startswith('要求'):
+#                     p=r"要求(.*?)修复|口腔检查|拔除|治疗|改善|洗牙|洁牙|牙周检查|窝沟封闭|补牙|检查|洁治|修|拆除|复查|牙周维护|拆线|矫治|矫正|诊治|种植|拔出|充填|镶牙|牙齿美白|明确(.*?)设计方案"
+#                     if len(re.findall(p, zhusu_clean))==0:
+#                         zhusu_all.append(zhusu_clean)
+#                 if  len(re.findall(r'有(?!洞)', zhusu_clean))>0:
+#                     p=r"要求(.*?)修复|口腔检查|拔除|治疗|改善|洗牙|洁牙|牙周检查|窝沟封闭|补牙|检查|洁治|修|拆除|复查|牙周维护|拆线|矫治|矫正|诊治|种植|拔出|充填|镶牙|牙齿美白|明确(.*?)设计方案"
+#                     p1=r"(.*?)转诊"
+#                     keshi.extend(re.findall(p, zhusu_clean))
+#                 p1=r'(?<![洗拔坏缺补洁磨镶])牙(?![周齿不])'
+#                 p2=r'(x|X|半|多|数|若干|一|二|两|三|四|五|六|七|八|九|十(来)*|１|３|４|６|\s*\d+\+*)\s*(个)*(年|月|周|日|天|小时)(余)*(左右)*|(\d+|一|十)\s*余\s*(年|月|周|日|天|小时)|月余'
+#                 p2=r'(双|右|左|上|下|前|后|多)(.*)齿'
+#                 if len(re.findall(p1, zhusu_clean))>0 and len(re.findall(p2, zhusu_clean))==0:
+                zhusu_all.append(zhusu_clean)
+#                 if len(re.findall(p1, zhusu_clean))>0:
+#                 p3=r'((双|右|左|上|下|前|后|多)(.*?)颌)'
+#                 if len(re.findall(p3,zhusu_clean))>0:
+# #                         print zhusu_clean
+#                         chis.append((re.findall(p3,zhusu_clean.encode('utf-8'))[0][0]))
+# #                         print re.findall(p3,zhusu_clean.encode('utf-8'))[0][0]
+#     print len(chis)
+#     for item in sorted(Counter(chis).iteritems(),key=lambda asd:asd[1], reverse=True):
+#         if item[0]!=None:
+#             logger_zhusu_yaoqiu.info(item[0])
+                           
+    logger_zhusu_yaoqiu.info("zhusu_all: %d" % len(Counter(zhusu_all))) 
     for item in sorted(Counter(zhusu_all).iteritems(),key=lambda asd:asd[1], reverse=True):
         logger_zhusu_yaoqiu.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
         logger_zhusu_yaoqiu.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
-               
+                  
 
 if __name__ == '__main__':
 #     inpath='records'
@@ -491,4 +551,7 @@ if __name__ == '__main__':
     detect_special_record()
 #     filter_segs()
 #     count_attribute()
-    
+#     s1='要求修复双侧上后牙'
+#     p3=r'((双|右|左|上|下|前|后|多)(.*?)牙)'
+#     print re.findall(p3,s1.encode('utf-8'))[0][0]
+#     special_record_path()
