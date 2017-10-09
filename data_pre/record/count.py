@@ -126,14 +126,14 @@ def merge_concept():
                     
                         
 def analysis_record(record):
-    zhusu=re.findall(r'主  诉：([\s\S]*)现病史',record)[0].strip()
-    xianbingshi=re.findall(r'现病史：([\s\S]*)既往史',record)[0].strip()
-    jiwangshi=re.findall(r'既往史：([\s\S]*)家族史',record)[0].strip()
-    jiazushi=re.findall(r'家族史：([\s\S]*)全  身',record)[0].strip()
-    quanshen=re.findall(r'全  身：([\s\S]*)检  查',record)[0].strip()
-    jiancha=re.findall(r'检  查：([\s\S]*)诊断',record)[0].strip()
-    zhenduan=re.findall(r'诊断：([\s\S]*)治疗计划',record)[0].strip()
-    zhiliaojihua=re.findall(r'治疗计划：([\s\S]*)处 置',record)[0].strip()
+    zhusu=re.findall(r'主  诉：([\s\S]*)现病史：',record)[0].strip()
+    xianbingshi=re.findall(r'现病史：([\s\S]*)既往史：',record)[0].strip()
+    jiwangshi=re.findall(r'既往史：([\s\S]*)家族史：',record)[0].strip()
+    jiazushi=re.findall(r'家族史：([\s\S]*)全  身：',record)[0].strip()
+    quanshen=re.findall(r'全  身：([\s\S]*)检  查：',record)[0].strip()
+    jiancha=re.findall(r'检  查：([\s\S]*)诊断：',record)[0].strip()
+    zhenduan=re.findall(r'诊断：([\s\S]*)治疗计划：',record)[0].strip()
+    zhiliaojihua=re.findall(r'治疗计划：([\s\S]*)处 置：',record)[0].strip()
     chuzhi=re.findall(r'处 置：([\s\S]*)签名',record)[0].strip()
     
 #     jieba.load_userdict("sources/concepts_dict.txt")
@@ -299,7 +299,7 @@ def part_seg():
                     
                     #     jieba.load_userdict("sources/concepts_dict.txt")
                     jieba.load_userdict("sources/user_dict.txt")
-                    print cnt
+#                     print cnt
                     
                     zhusu_seg_list = jieba.lcut(zhusu)
                     xianbingshi_seg_list = jieba.lcut(xianbingshi)
@@ -318,10 +318,10 @@ def part_seg():
                     logger_zhusu.info(' '.join([word.word+'/'+word.flag for word in postag.cut(zhusu)])+'\n~~~~~~~~~~~~~~~~~\n')
 
                     
-#                     v_set,n_set,m_set=analysis_seg(postag.cut(zhusu))
-#                     v_set_all.extend(v_set)
-#                     n_set_all.extend(n_set)
-#                     m_set_all.extend(m_set)
+                    v_set,n_set,m_set=analysis_seg(postag.cut(jiancha))
+                    v_set_all.extend(v_set)
+                    n_set_all.extend(n_set)
+                    m_set_all.extend(m_set)
 #                     print len(v_set_all)
                     filter_quanshen,filter_jiwangshi,filter_jiazushi=load_filter()
                     
@@ -397,59 +397,59 @@ def count_attribute():
             for i in range(2,nrows):
                 record=table.cell(i,5).value.encode('utf-8')
                 try:
-                    zhusu_all.append(re.findall(r'主  诉：([\s\S]*)现病史',record)[0].strip())
-                    xianbingshi_all.append(re.findall(r'现病史：([\s\S]*)既往史',record)[0].strip())
-                    jiwangshi_all.append(re.findall(r'既往史：([\s\S]*)家族史',record)[0].strip())
-                    jiazushi_all.append(re.findall(r'家族史：([\s\S]*)全  身',record)[0].strip())
-                    quanshen_all.append(re.findall(r'全  身：([\s\S]*)检  查',record)[0].strip())
-                    jiancha_all.append(re.findall(r'检  查：([\s\S]*)诊断',record)[0].strip())
-                    zhenduan_all.append(re.findall(r'诊断：([\s\S]*)治疗计划',record)[0].strip())
-                    zhiliaojihua_all.append(re.findall(r'治疗计划：([\s\S]*)处 置',record)[0].strip())
-                    chuzhi_all.append(re.findall(r'处 置：([\s\S]*)签名',record)[0].strip())
+                    zhusu_all.append(re.findall(r'主\s*诉：([\s\S]*)现病史：',record)[0].strip())
+                    xianbingshi_all.append(re.findall(r'现病史：([\s\S]*)既往史：',record)[0].strip())
+                    jiwangshi_all.append(re.findall(r'既往史：([\s\S]*)家族史：',record)[0].strip())
+                    jiazushi_all.append(re.findall(r'家族史：([\s\S]*)全\s*身：',record)[0].strip())
+                    quanshen_all.append(re.findall(r'全\s*身：([\s\S]*)检\s*查：',record)[0].strip())
+                    jiancha_all.append(re.findall(r'检\s*查：([\s\S]*)诊\s*断：',record)[0].strip())
+                    zhenduan_all.append(re.findall(r'诊\s*断：([\s\S]*)治疗计划：',record)[0].strip())
+                    zhiliaojihua_all.append(re.findall(r'治疗计划：([\s\S]*)处\s*置：',record)[0].strip())
+                    chuzhi_all.append(re.findall(r'处\s*置：([\s\S]*)签名',record)[0].strip())
                     
                 
                 except:
                     logger_exp.info(record)
                     logger_exp.info(traceback.format_exc())
                     
-    jieba.load_userdict("sources/user_dict.txt")
+#     jieba.load_userdict("sources/user_dict.txt")
     
     logger_attr.info("zhusu_all: %d" % len(Counter(zhusu_all)))              
     for item in sorted(Counter(zhusu_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~') 
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
     logger_attr.info("xianbingshi_all: %d" % len(Counter(xianbingshi_all)))                
     for item in sorted(Counter(xianbingshi_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~') 
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
     logger_attr.info("jiwangshi_all: %d" % len(Counter(jiwangshi_all)))              
     for item in sorted(Counter(jiwangshi_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~') 
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
     logger_attr.info("jiazushi_all: %d" % len(Counter(jiazushi_all)))               
     for item in sorted(Counter(jiazushi_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~') 
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
     logger_attr.info("quanshen_all: %d" % len(Counter(quanshen_all)))              
     for item in sorted(Counter(quanshen_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1]))
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n') 
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~')
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n') 
     logger_attr.info("zhenduan_all: %d" % len(Counter(zhenduan_all)))             
     for item in sorted(Counter(zhenduan_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1]))    
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~')    
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
     logger_attr.info("zhiliaojihua_all: %d" % len(Counter(zhiliaojihua_all)))              
     for item in sorted(Counter(zhiliaojihua_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~') 
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')
     logger_attr.info("jiancha_all: %d" % len(Counter(jiancha_all)))              
     for item in sorted(Counter(jiancha_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1]))   
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~')   
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
     logger_attr.info("chuzhi_all: %d" % len(Counter(chuzhi_all)))               
     for item in sorted(Counter(chuzhi_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1]))
-        logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
+        logger_attr.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~')
+#         logger_attr.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
   
 def you(zhusu):  
     zhusu_pos=postag.cut(zhusu)
@@ -475,8 +475,8 @@ def special_record_path():
                 record=table.cell(i,5).value.encode('utf-8')
                 zhusu=re.findall(r'主\s+诉：([\s\S]*)现病史',record)[0].strip()
                 zhusu_clean=re.sub(pattern,'',zhusu)   
-                s1=u'双侧颞下颌'.encode('utf-8')
-                if s1 in zhusu:
+                s1=u'''旧充填体     牙色充填体，无龋坏，    叩痛（+++），I°松动。 牙龈缘轻度红肿，根尖区略红肿，颊侧无窦道口。冷测     冷测无反应。    X线片     X线片示：冠部 充填物高密度影近髓腔。 根管内 无充填物影像，根尖周根周膜增宽，近中、远中无牙槽骨吸收'''.encode('utf-8')
+                if s1 in record:
                     print new_path.decode('gbk')
                     
                     
@@ -511,7 +511,7 @@ def detect_special_record():
 #                     p=r"要求(.*?)修复|口腔检查|拔除|治疗|改善|洗牙|洁牙|牙周检查|窝沟封闭|补牙|检查|洁治|修|拆除|复查|牙周维护|拆线|矫治|矫正|诊治|种植|拔出|充填|镶牙|牙齿美白|明确(.*?)设计方案"
 #                     if len(re.findall(p, zhusu_clean))==0:
 #                         zhusu_all.append(zhusu_clean)
-#                 if  len(re.findall(r'有(?!洞)', zhusu_clean))>0:
+                if  len(re.findall(r'要求|咨询', zhusu_clean))==0:
 #                     p=r"要求(.*?)修复|口腔检查|拔除|治疗|改善|洗牙|洁牙|牙周检查|窝沟封闭|补牙|检查|洁治|修|拆除|复查|牙周维护|拆线|矫治|矫正|诊治|种植|拔出|充填|镶牙|牙齿美白|明确(.*?)设计方案"
 #                     p1=r"(.*?)转诊"
 #                     keshi.extend(re.findall(p, zhusu_clean))
@@ -519,7 +519,7 @@ def detect_special_record():
 #                 p2=r'(x|X|半|多|数|若干|一|二|两|三|四|五|六|七|八|九|十(来)*|１|３|４|６|\s*\d+\+*)\s*(个)*(年|月|周|日|天|小时)(余)*(左右)*|(\d+|一|十)\s*余\s*(年|月|周|日|天|小时)|月余'
 #                 p2=r'(双|右|左|上|下|前|后|多)(.*)齿'
 #                 if len(re.findall(p1, zhusu_clean))>0 and len(re.findall(p2, zhusu_clean))==0:
-                zhusu_all.append(zhusu_clean)
+                    zhusu_all.append(zhusu_clean)
 #                 if len(re.findall(p1, zhusu_clean))>0:
 #                 p3=r'((双|右|左|上|下|前|后|多)(.*?)颌)'
 #                 if len(re.findall(p3,zhusu_clean))>0:
@@ -534,9 +534,61 @@ def detect_special_record():
     logger_zhusu_yaoqiu.info("zhusu_all: %d" % len(Counter(zhusu_all))) 
     for item in sorted(Counter(zhusu_all).iteritems(),key=lambda asd:asd[1], reverse=True):
         logger_zhusu_yaoqiu.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
-        logger_zhusu_yaoqiu.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
-                  
+#         logger_zhusu_yaoqiu.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
 
+def pre_process_jiancha(record):
+    return re.sub('表格<诊断>内容:(:|\s+)*','',record)
+
+def guanbu(jiancha):
+    if len(re.findall('冠(.*?),',re.findall('临床邻牙检查[\s+邻牙：]*(.*?)[\r\n]', jiancha)[0]))==0 and \
+    len(re.findall('(?<!牙)冠部(.*?)[，。；,;\r\n]',re.findall('[xX]线片示[：:]*(.*?)[\r\n]', jiancha)[0]))==0 and \
+    len(re.findall('冠部(.*?)[，。；,;\r\n]',re.findall('[Xx]根尖片.*?：(.*?)\r', jiancha)[0]))==0 :
+        return jiancha 
+    else:
+        return ''
+        
+        
+def test_jiancha():                 
+    logger_jiancha_research=log_file("jiancha_research.log", "logger_jiancha_research")
+    inpath='records'
+    pattern=r'|'.join([line.strip() for line in codecs.open('sources/remove_seg.txt','r','utf-8').readlines()]).replace('\\s','\s').encode('utf-8')
+    jieba.load_userdict("sources/user_dict.txt")
+    jiancha_all=[]
+    chis=[]
+    for rt, dirs, files in os.walk(inpath):
+        for f in files:
+            fname = os.path.splitext(f)
+            new_path = inpath+os.sep+fname[0] + fname[1]
+            data=xlrd.open_workbook(new_path)
+            table=data.sheets()[0]
+            nrows = table.nrows
+            for i in range(2,nrows):
+                record=pre_process_jiancha(table.cell(i,5).value.encode('utf-8'))
+                try:
+                    jiancha=re.findall(r'检 \s*查\s*：([\s\S]*)诊\s*断\s*：',record)[0]
+#                     jiancha_all.append(jiancha)[Xx]根尖片.*?：(.*?)[\r\n]
+                    jiancha_all.append(guanbu(jiancha))
+                    check_pattern='临床邻牙检查[\s+邻牙：]*(.*?)[\r\n]'
+#                     if len(re.findall(check_pattern, jiancha))>0:
+# #                     jiancha_all.append(jiancha)
+#                         jiancha_all.append(re.findall(check_pattern, jiancha)[0])
+#                     if len(re.findall('[xX]线片示[：]*(.*?)临床邻牙检查', jiancha))>0:
+#                         jiancha_all.append(re.findall('[xX]线片示[：]*(.*?)临床邻牙检查', jiancha)[0])
+#                     elif len(re.findall('[xX]线片示[：]*(.*?)邻牙', jiancha))>0:
+#                         jiancha_all.append(re.findall('[xX]线片示[：]*(.*?)邻牙', jiancha)[0])
+#                     elif len(re.findall('[xX]线片示[：]*(.*?)[\r\n]', jiancha))>0:
+#                         jiancha_all.append(re.findall('[xX]线片示[：]*(.*?)[\r\n]', jiancha)[0])
+#                     
+                        
+                except:
+                    logger_exp.info(record)
+                    logger_exp.info(traceback.format_exc())
+    logger_jiancha_research.info("jiancha_all: %d" % len(Counter(jiancha_all))) 
+    for item in sorted(Counter(jiancha_all).iteritems(),key=lambda asd:asd[1], reverse=True):
+#         logger_jiancha_research.info(item[0].encode('utf-8')+'\n~~~~~~~~~~~~~~~~~~') 
+        logger_jiancha_research.info(item[0]+'\n~~~~~~~~~~~~~~~~~~')
+        #.encode('utf-8')
+                   
 if __name__ == '__main__':
 #     inpath='records'
 #     count_record()
@@ -548,10 +600,11 @@ if __name__ == '__main__':
 #     filter_oral_concepts()
 #     merge_concept()
 #     part_seg()
-    detect_special_record()
+#     detect_special_record()
 #     filter_segs()
 #     count_attribute()
 #     s1='要求修复双侧上后牙'
 #     p3=r'((双|右|左|上|下|前|后|多)(.*?)牙)'
 #     print re.findall(p3,s1.encode('utf-8'))[0][0]
 #     special_record_path()
+    test_jiancha()
