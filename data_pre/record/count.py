@@ -568,9 +568,10 @@ def test_jiancha():
                     jiancha=re.findall(r'检 \s*查\s*：([\s\S]*)诊\s*断\s*：',record)[0]
 #                     jiancha_all.append(jiancha)[Xx]根尖片.*?：(.*?)[\r\n]
                     jiancha_all.append(guanbu(jiancha))
-                    check_pattern='临床邻牙检查[\s+邻牙：]*(.*?)[\r\n]'
-#                     if len(re.findall(check_pattern, jiancha))>0:
-# #                     jiancha_all.append(jiancha)
+                    check_pattern='((([ⅠⅡⅢ]|I+)[度°]*[-~]([ⅠⅡⅢ]|I+)[度°]*)|([ⅠⅡⅢ]|I+|[123一二三])[+-]*[°度]*[+-]*[,；]*|[不无])松动'
+                    check_pattern2='松动((([ⅠⅡⅢ]|I+)[度°]*[-~]([ⅠⅡⅢ]|I+)[度°]*)|([ⅠⅡⅢ]|I+|[123一二三])[+-]*[°度]*[+-]*[,；]*|[无])'
+                    if len(re.findall(check_pattern, jiancha))==0 and len(re.findall(check_pattern2, jiancha))==0:
+                        jiancha_all.append(jiancha)
 #                         jiancha_all.append(re.findall(check_pattern, jiancha)[0])
 #                     if len(re.findall('[xX]线片示[：]*(.*?)临床邻牙检查', jiancha))>0:
 #                         jiancha_all.append(re.findall('[xX]线片示[：]*(.*?)临床邻牙检查', jiancha)[0])
