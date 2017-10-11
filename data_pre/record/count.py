@@ -475,7 +475,7 @@ def special_record_path():
                 record=table.cell(i,5).value.encode('utf-8')
                 zhusu=re.findall(r'主\s+诉：([\s\S]*)现病史',record)[0].strip()
                 zhusu_clean=re.sub(pattern,'',zhusu)   
-                s1=u'''旧充填体     牙色充填体，无龋坏，    叩痛（+++），I°松动。 牙龈缘轻度红肿，根尖区略红肿，颊侧无窦道口。冷测     冷测无反应。    X线片     X线片示：冠部 充填物高密度影近髓腔。 根管内 无充填物影像，根尖周根周膜增宽，近中、远中无牙槽骨吸收'''.encode('utf-8')
+                s1=u''' '''.encode('utf-8')
                 if s1 in record:
                     print new_path.decode('gbk')
                     
@@ -511,7 +511,7 @@ def detect_special_record():
 #                     p=r"要求(.*?)修复|口腔检查|拔除|治疗|改善|洗牙|洁牙|牙周检查|窝沟封闭|补牙|检查|洁治|修|拆除|复查|牙周维护|拆线|矫治|矫正|诊治|种植|拔出|充填|镶牙|牙齿美白|明确(.*?)设计方案"
 #                     if len(re.findall(p, zhusu_clean))==0:
 #                         zhusu_all.append(zhusu_clean)
-                if  len(re.findall(r'要求|咨询', zhusu_clean))==0:
+#                 if  len(re.findall(r'要求|咨询', zhusu_clean))==0:
 #                     p=r"要求(.*?)修复|口腔检查|拔除|治疗|改善|洗牙|洁牙|牙周检查|窝沟封闭|补牙|检查|洁治|修|拆除|复查|牙周维护|拆线|矫治|矫正|诊治|种植|拔出|充填|镶牙|牙齿美白|明确(.*?)设计方案"
 #                     p1=r"(.*?)转诊"
 #                     keshi.extend(re.findall(p, zhusu_clean))
@@ -519,7 +519,7 @@ def detect_special_record():
 #                 p2=r'(x|X|半|多|数|若干|一|二|两|三|四|五|六|七|八|九|十(来)*|１|３|４|６|\s*\d+\+*)\s*(个)*(年|月|周|日|天|小时)(余)*(左右)*|(\d+|一|十)\s*余\s*(年|月|周|日|天|小时)|月余'
 #                 p2=r'(双|右|左|上|下|前|后|多)(.*)齿'
 #                 if len(re.findall(p1, zhusu_clean))>0 and len(re.findall(p2, zhusu_clean))==0:
-                    zhusu_all.append(zhusu_clean)
+                zhusu_all.append(record)
 #                 if len(re.findall(p1, zhusu_clean))>0:
 #                 p3=r'((双|右|左|上|下|前|后|多)(.*?)颌)'
 #                 if len(re.findall(p3,zhusu_clean))>0:
@@ -531,9 +531,9 @@ def detect_special_record():
 #         if item[0]!=None:
 #             logger_zhusu_yaoqiu.info(item[0])
                            
-    logger_zhusu_yaoqiu.info("zhusu_all: %d" % len(Counter(zhusu_all))) 
+#     logger_zhusu_yaoqiu.info("zhusu_all: %d" % len(Counter(zhusu_all))) 
     for item in sorted(Counter(zhusu_all).iteritems(),key=lambda asd:asd[1], reverse=True):
-        logger_zhusu_yaoqiu.info(item[0].encode('utf-8')+':\t'+str(item[1])) 
+        logger_zhusu_yaoqiu.info(item[0].encode('utf-8')+':\t'+str(item[1])+'\n~~~~~~~~~~~~~~~~~\n') 
 #         logger_zhusu_yaoqiu.info(' '.join([word.word+'/'+word.flag for word in postag.cut(item[0])])+'\n~~~~~~~~~~~~~~~~~\n')  
 
 def pre_process_jiancha(record):
@@ -601,11 +601,11 @@ if __name__ == '__main__':
 #     filter_oral_concepts()
 #     merge_concept()
 #     part_seg()
-#     detect_special_record()
+    detect_special_record()
 #     filter_segs()
 #     count_attribute()
 #     s1='要求修复双侧上后牙'
 #     p3=r'((双|右|左|上|下|前|后|多)(.*?)牙)'
 #     print re.findall(p3,s1.encode('utf-8'))[0][0]
 #     special_record_path()
-    test_jiancha()
+#     test_jiancha()
