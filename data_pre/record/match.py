@@ -50,9 +50,9 @@ def extract_attr_value_zhusu(zhusu,patterns,sources):
     for clause in clauses:
         clause=re.sub("\s+|。|，", '', clause)
 #         match_ele(patterns["zhusu"]["suqiu"],"suqiu",clause)
-        shichang=match_ele(patterns["zhusu"]["shichang"],"shichang",clause.encode('utf-8'))
-        keshi=match_ele(patterns["zhusu"]["keshi"],"keshi",clause.encode('utf-8'))
-        weizhi=match_ele(patterns["zhusu"]["weizhi"],"weizhi",clause.encode('utf-8'))
+        shichang=match_ele_zhusu(patterns["zhusu"]["shichang"],"shichang",clause.encode('utf-8'))
+        keshi=match_ele_zhusu(patterns["zhusu"]["keshi"],"keshi",clause.encode('utf-8'))
+        weizhi=match_ele_zhusu(patterns["zhusu"]["weizhi"],"weizhi",clause.encode('utf-8'))
         if clause.startswith("要求"):
             if weizhi=='':
                 p="要求"+'(.*)'
@@ -125,7 +125,7 @@ def extract_attr_value_zhusu(zhusu,patterns,sources):
      
     return attr2value     
             
-def match_ele(patterns,item,clause):
+def match_ele_zhusu(patterns,item,clause):
     for pattern in patterns:
         
         if len(re.findall(pattern.encode('utf-8'), clause))==0:
@@ -170,6 +170,12 @@ def process_records(inpath,pattern_path):
                     zhusus_attr.append(extract_attr_value_zhusu(zhusu,patterns,sources))
                     
     json.dump(zhusus_attr, codecs.open("zhusus_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
+
+
+def extract_attr_value_zhenduan():
+
+
+
 
 def debug_record():
     zhusu='牙周治疗后定期复查'
