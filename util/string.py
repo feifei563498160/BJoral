@@ -13,6 +13,8 @@ reload(sys)
 sys.setdefaultencoding('utf8') 
 
 def rep_start_dup(s1):
+    if re.search('\s+', s1)==None:
+        return s1
     res=re.split('\s+', s1)
     f_res=res[1]
     tags=[r',',r'，',r';',r':',r'；',r'：',r'.']
@@ -28,5 +30,5 @@ def rep_start_dup(s1):
         return s1
     
 if __name__ == '__main__':
-    s1='牙体治疗     牙体治疗    这就是'
+    s1='缺失，剩余牙槽嵴中度吸收，近远中间隙基本正常，合龈间距基本正常。'
     print rep_start_dup(s1)
