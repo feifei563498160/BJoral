@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.semanticweb.org/ontolgies/bjoral/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/活血">
+    <ns1:能力 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/无限"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/牛膝">
+    <ns1:功效属性 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/活血"/>
+  </rdf:Description>
+</rdf:RDF>

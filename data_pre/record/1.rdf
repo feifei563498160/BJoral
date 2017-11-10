@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.semanticweb.org/ontolgies/bjoral/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/治疗计划">
+    <ns1:方案 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/种植修复"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查">
+    <ns1:骨质 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/骨质中等"/>
+    <ns1:骨高度 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/约18mm"/>
+    <ns1:缺失 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/缺失，"/>
+    <ns1:骨厚度 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/约5mm"/>
+    <ns1:卫生状况 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/一般"/>
+  </rdf:Description>
+</rdf:RDF>

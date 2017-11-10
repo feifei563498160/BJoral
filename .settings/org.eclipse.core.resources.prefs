@@ -1,6 +1,11 @@
 eclipse.preferences.version=1
 encoding//data_pre/record/count.py=utf-8
+encoding//data_pre/record/del.py=utf-8
 encoding//data_pre/record/match.py=utf-8
+encoding//data_pre/record/pro_record.py=utf-8
+encoding//data_pre/record/rdf_pro.py=utf-8
+encoding//data_pre/record/similar_attr.py=utf-8
 encoding//data_pre/record/test.py=utf-8
 encoding//util/data_structure.py=utf-8
+encoding//util/db.py=utf-8
 encoding//util/string.py=utf-8

@@ -181,13 +181,13 @@ def get_start_end(part,whole):
         return (index_self(pl[0],wl),index_self(pl[-1],wl))
     
     
-def extract_attr_value_jiancha(jiancha,patterns,sources):
+def extract_attr_value_jiancha(jiancha,patterns):
     '''
                 对检查按行split是合理的，经过人工统计暂没发现跨行的属性
     '''
 #     lines=re.split('[\r\n]', jiancha)
     attr2value=defaultdict(list)
-    print "jiancha: ",jiancha
+#     print "jiancha: ",jiancha
     xxpjc=match_ele_jiancha(patterns["Xxianpianjiancha"]["self"],"Xxianpianjiancha",jiancha)
     if xxpjc!='':
         for line in re.split('[\r\n]', xxpjc):
@@ -196,7 +196,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
             
             xxpgmdc=match_ele_jiancha(patterns["Xxianpianjiancha"]["qumianduanceng"]["self"],"qumianduanceng",line)
             if xxpgmdc!='':
-                xxpgycg=match_ele_jiancha(patterns["Xxianpianjiancha"]["qumianduanceng"]["yacaogu"],"yacaogu",line)
+                xxpgycg=match_ele_jiancha(patterns["Xxianpianjiancha"]["qumianduanceng"]["yacaoguxishou"],"yacaoguxishou",line)
                 xxpgke=match_ele_jiancha(patterns["Xxianpianjiancha"]["qumianduanceng"]["ke"],"ke",line)
                 xxpgyp=match_ele_jiancha(patterns["Xxianpianjiancha"]["qumianduanceng"]["yapei"],"yapei",line)
                 xxpgmc=match_ele_jiancha(patterns["Xxianpianjiancha"]["qumianduanceng"]["mengchu"],"mengchu",line)
@@ -244,7 +244,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
             xxyggmf=match_ele_jiancha(patterns["Xxianpianshi"]["yaguangumaifu"],"yaguangumaifu",line)
             xxwz=match_ele_jiancha(patterns["Xxianpianshi"]["weizhi"],"weizhi",line)
             xxgjz=match_ele_jiancha(patterns["Xxianpianshi"]["genjianzhou"],"genjianzhou",line)
-            xxycg=match_ele_jiancha(patterns["Xxianpianshi"]["yacaogu"],"yacaogu",line)
+            xxycg=match_ele_jiancha(patterns["Xxianpianshi"]["yacaoguxishou"],"yacaoguxishou",line)
             xxggn=match_ele_jiancha(patterns["Xxianpianshi"]["genguannei"],"genguannei",line)
             xxqs=match_ele_jiancha(patterns["Xxianpianshi"]["queshi"],"queshi",line)
         
@@ -274,7 +274,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
             xggb=match_ele_jiancha(patterns["Xgenjianqu"]["guanbu"],"guanbu",line)
             xggcyx=match_ele_jiancha(patterns["Xgenjianqu"]["genchongyingxiang"],"genchongyingxiang",line)
             xggjyx=match_ele_jiancha(patterns["Xgenjianqu"]["genjianyingxiang"],"genjianyingxiang",line)
-            xgycg=match_ele_jiancha(patterns["Xgenjianqu"]["yacaogu"],"yacaogu",line)
+            xgycg=match_ele_jiancha(patterns["Xgenjianqu"]["yacaoguxishou"],"yacaoguxishou",line)
                 
         wszk=match_ele_jiancha(patterns["weishengzhuangkuang"],"weishengzhuangkuang",line)
         yy=match_ele_jiancha(patterns["yayin"],"yayin",line)
@@ -285,7 +285,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
         sd=match_ele_jiancha(patterns["songdong"],"songdong",line)
         qs=match_ele_jiancha(patterns["queshi"],"queshi",line)
         qz=match_ele_jiancha(patterns["guanzhou"],"guanzhou",line)
-        ycg=match_ele_jiancha(patterns["yacaogu"],"yacaogu",line)
+        ycgxs=match_ele_jiancha(patterns["yacaoguxishou"],"yacaoguxishou",line)
         ys=match_ele_jiancha(patterns["yashi"],"yashi",line)
         xft=match_ele_jiancha(patterns["xiufuti"],"xiufuti",line)
         pd=match_ele_jiancha(patterns["PD"],"PD",line)
@@ -345,7 +345,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                     xxpgmdc_dict["阻生"].append(xxpgzs)
                 if xxpgtlcw!='':
                     xxpgmdc_dict["牙列"].append(xxpgtlcw)
-                xxpjc_dict["曲面断层"].append(xxpgmdc_dict)
+                xxpjc_dict["曲面断层"]=xxpgmdc_dict
             if xxptlcw!='':
                 xxptlcw_dict=defaultdict(list)
                 if xxptsxg!='':
@@ -354,7 +354,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                     xxptlcw_dict["垂直骨型"].append(xxptczg)
                 if xxptqycqd!='':
                     xxptlcw_dict["切牙唇倾度"].append(xxptqycqd)
-                xxpjc_dict["头颅侧位"].append(xxptlcw_dict)
+                xxpjc_dict["头颅侧位"]=xxptlcw_dict
             if xxpcbct!='':
                 xxpcbct_dict=defaultdict(list)
                 if xxpcke!='':
@@ -364,7 +364,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 xxpjc_dict["CBCT"].append(xxpcbct_dict)
             if xxptlzw!='':
                 xxpjc_dict["头颅正位"].append(xxptlzw) 
-            attr2value["X线片检查"].append(xxpjc_dict)
+            attr2value["X线片检查"]=xxpjc_dict
         if mczcjc!='':
             mczcjc_dict=defaultdict(list)
             if mjcwz!='':
@@ -385,7 +385,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 mczcjc_dict["冠周"].append(mgz)
             if mgs!='':
                 mczcjc_dict["龋损"].append(mgs)
-            attr2value["萌出智齿检查"].append(mczcjc_dict)
+            attr2value["萌出智齿检查"]=mczcjc_dict
         if xxps!='':
             xxps_dict=defaultdict(list)
             if xxgs!='':
@@ -406,7 +406,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 xxps_dict["根管内"].append(xxggn)
             if xxqs!='':
                 xxps_dict["缺失"].append(xxqs)
-            attr2value["X线片示"].append(xxps_dict)
+            attr2value["X线片示"]=xxps_dict
         if qmdc!='':
             qmdc_dict=defaultdict(list)
             if qgjz!='':
@@ -425,7 +425,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 qmdc_dict["上颌窦"].append(qshd)
             if qwszk!='':
                 qmdc_dict["卫生状况"].append(qwszk)
-            attr2value["曲面断层"].append(qmdc_dict)   
+            attr2value["曲面断层"]=qmdc_dict  
         if lcly!='':
             lcly_dict=defaultdict(list)
             if lkt!='':
@@ -442,7 +442,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 lcly_dict["龋损"].append(lqsun)
             if lqshi!='':
                 lcly_dict["缺失"].append(lqshi)      
-            attr2value["临床邻牙检查"].append(lcly_dict) 
+            attr2value["临床邻牙检查"]=lcly_dict
         if lxgjp!='':
             lxgjp_dict=defaultdict(list)
             if xggb!='':
@@ -453,7 +453,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 lxgjp_dict["根尖影像"].append(xggjyx)
             if xgycg!='':
                 lxgjp_dict["牙槽骨"].append(xgycg)   
-            attr2value["X根尖区"].append(lxgjp_dict)   
+            attr2value["X根尖区"]=lxgjp_dict   
         if mb!='':
             mb_dict=defaultdict(list)
             if mbdc!='':
@@ -470,7 +470,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 lxgjp_dict["露龈微笑"].append(mblywx) 
             if mbhw!='':
                 lxgjp_dict["颏窝"].append(mbhw)      
-            attr2value["面部"].append(mb_dict)
+            attr2value["面部"]=mb_dict
         if cbct!='':
             cbct_dict=defaultdict(list)
             if cbghd!='':
@@ -481,16 +481,17 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 cbct_dict["骨高度"].append(cbggd) 
             if cbgz!='':
                 cbct_dict["骨质"].append(cbgz)        
-            attr2value["CBCT"].append(cbct_dict)
+            attr2value["CBCT"]=cbct_dict
         if len(yy)!=0:
             if yy.has_key("content"):
-                attr2value["牙龈"].append(yy["content"])
+                if attr2value.has_key("牙龈") and (isinstance(attr2value["牙龈"], dict)==False):
+                    attr2value["牙龈"].append(yy["content"])
             else:
                 yy_dict=defaultdict(list)
                 yy_dict["颜色"].append(yy["yanse"])
                 yy_dict["质地"].append(yy["zhidi"])
                 yy_dict["形态"].append(yy["xingtai"])
-                attr2value["牙龈"].append(yy_dict)
+                attr2value["牙龈"]=yy_dict
         if wszk!='':
             attr2value["卫生状况"].append(wszk)
         if gjz!='':
@@ -505,8 +506,8 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
             attr2value["缺失"].append(qs)
         if qz!='':
             attr2value["冠周"].append(qz)
-        if ycg!='':
-            attr2value["牙槽骨"].append(ycg)
+        if ycgxs!='':
+            attr2value["牙槽骨"].append(ycgxs)
         if ys!='':
             attr2value["牙石"].append(ys)
         if xft!='':
@@ -550,7 +551,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 zx_dict=defaultdict(list)
                 zx_dict["上"].append(zx["shang"])
                 zx_dict["下"].append(zx["xia"])
-                attr2value["中线"].append(zx_dict)
+                attr2value["中线"]=zx_dict
         if len(ht)!=0:
             if ht.has_key("content"):
                 attr2value["颌体"].append(ht["content"])
@@ -558,7 +559,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 ht_dict=defaultdict(list)
                 ht_dict["上"].append(ht["shang"])
                 ht_dict["下"].append(ht["xia"])
-                attr2value["颌体"].append(ht_dict)
+                attr2value["颌体"]=ht_dict
         if len(ccz)!=0:
             if ccz.has_key("content"):
                 attr2value["齿槽座"].append(ccz["content"])
@@ -566,7 +567,7 @@ def extract_attr_value_jiancha(jiancha,patterns,sources):
                 ccz_dict=defaultdict(list)
                 ccz_dict["上"].append(ccz["shang"])
                 ccz_dict["下"].append(ccz["xia"])
-                attr2value["齿槽座"].append(ccz_dict)
+                attr2value["齿槽座"]=ccz_dict
     attr2value["jiancha"].append(jiancha)
     return attr2value
 
@@ -594,7 +595,7 @@ def get_zhenduan_beizhu(s1):
     else:
         return {"疾病":jibing}
 
-def extract_attr_value_zhenduan(zhenduan,patterns,sources):
+def extract_attr_value_zhenduan(zhenduan,patterns):
     attr2value=defaultdict(list)
     for line in re.split(u'[\n\r]+', zhenduan):
         if line.strip()=='':
@@ -617,10 +618,25 @@ def extract_attr_value_zhenduan(zhenduan,patterns,sources):
                 attr2value["诊断"].append(get_zhenduan_beizhu(value))
         if len(anshi)==0 and len(guxing)==0 and len(maoshi)==0 and len(duozhenduan)==0:
             attr2value["诊断"].append(get_zhenduan_beizhu(line.strip()))
-    attr2value["诊断"].append({"record":zhenduan})
-    return  attr2value  
+#     attr2value["诊断"].append({"record":zhenduan})
+    
+    return  transfor_dict(attr2value)
 
-
+def transfor_dict(attr2value):
+    attr2value_new={}
+    ele_l=attr2value["诊断"]
+    cnt=0
+    for i in range(len(ele_l)):
+        attr2value_new["疾病"+str(cnt)]=ele_l[i].get("疾病")
+        if "备注" in ele_l[i].keys():
+            if len(ele_l[i].get("备注"))>1:
+                beizhus=ele_l[i].get("备注")
+                for j in range(len(beizhus)):
+                    attr2value_new["备注"+str(cnt)+str(j)]=beizhus[j]
+            else:
+                attr2value_new["备注"+str(cnt)]=ele_l[i].get("备注")[0]
+    return attr2value_new
+    
 def match_ele_zhiliao(patterns,zhenduan):
     for pattern in patterns:
         m=re.search(pattern, zhenduan)
@@ -677,7 +693,7 @@ def get_left_content(fangan1,fangan2,fangan3,zhiliao):
 #     print left_content
     return left_content
 
-def extract_attr_value_zhiliao(zhiliao_origin,patterns,sources):
+def extract_attr_value_zhiliao(zhiliao_origin,patterns):
     attr2value=defaultdict(list)
     zhiliao=filter_xuzhi(zhiliao_origin)
     fangan3=match_ele_zhiliao(patterns["fangan"]["fangan3"],zhiliao)
@@ -732,8 +748,8 @@ def extract_attr_value_zhiliao(zhiliao_origin,patterns,sources):
             elif match_ele_zhiliao(patterns["danfangan"],line)!='':
                 attr2value["方案"].append(match_ele_zhiliao(patterns["danfangan"],line))
     
-    attr2value["record_origin"].append(zhiliao_origin)
-    attr2value["record"].append(zhiliao)
+#     attr2value["record_origin"].append(zhiliao_origin)
+#     attr2value["record"].append(zhiliao)
     return attr2value
    
 def process_records(inpath,pattern_path):
@@ -760,81 +776,121 @@ def process_records(inpath,pattern_path):
     #                     zhusu=re.findall(r'主\s*诉：([\s\S]*)现病史',record)[0].strip()
     #                     zhusus_attr.append(extract_attr_value_zhusu(zhusu,patterns,sources))
                         try:
-#                             jiancha=re.findall(r'检\s*查：([\s\S]*)诊\s*断：',record)[0].strip()
+                            jiancha=re.findall(r'检\s*查：([\s\S]*)诊\s*断：',record)[0].strip()
 #                             zhenduan=re.findall(r'诊\s*断：([\s\S]*)治疗计划：',record)[0].strip()
-                            zhiliao=re.findall(r'治疗计划：([\s\S]*)处\s*置：',record)[0].strip()
-                            if zhiliao.strip()=='':
-                                continue
+#                             zhiliao=re.findall(r'治疗计划：([\s\S]*)处\s*置：',record)[0].strip()
+#                             if zhiliao.strip()=='':
+#                                 continue
                         except Exception:
                             continue
-#                         result=extract_attr_value_jiancha(jiancha, patterns["jiancha"], sources)
+                        result=extract_attr_value_jiancha(jiancha, patterns["jiancha"])
 #                         result=extract_attr_value_zhenduan(zhenduan, patterns["zhenduan"], sources)
-                        result=extract_attr_value_zhiliao(zhiliao, patterns["zhiliao"], sources)
+#                         result=extract_attr_value_zhiliao(zhiliao, patterns["zhiliao"], sources)
 #                         print json.dumps(result,ensure_ascii=False)
-#                         jiancha_attr.append(result)
+                        jiancha_attr.append(result)
 #                         zhenduan_attr.append(result)
-                        zhiliao_attr.append(result)
+#                         zhiliao_attr.append(result)
                         cnt+=1
 #     json.dump(zhusus_attr, codecs.open("zhusus_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
     except Exception:
+#         traceback.format_exc(Exception)
         traceback.print_exc(Exception)
-        print zhiliao
-        json.dump(zhiliao_attr, codecs.open("zhiliao_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
-    print cnt
-    json.dump(zhiliao_attr, codecs.open("zhiliao_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
-    
+        print jiancha
+#         json.dump(zhiliao_attr, codecs.open("zhiliao_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
+#     print cnt
+#     json.dump(zhiliao_attr, codecs.open("zhiliao_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
+#     
 #         json.dump(zhenduan_attr, codecs.open("zhenduan_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
 #     json.dump(zhenduan_attr, codecs.open("zhenduan_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
          
-#         json.dump(jiancha_attr, codecs.open("jiancha_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
-#     json.dump(jiancha_attr, codecs.open("jiancha_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
-#             
+        json.dump(jiancha_attr, codecs.open("jiancha_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
+    json.dump(jiancha_attr, codecs.open("jiancha_attr.json", 'w','utf-8'),ensure_ascii=False,indent=2)
+             
 def debug_record():
 #     zhusu='牙周治疗后定期复查'
     patterns=json.load(codecs.open('sources/patterns.json', 'r', encoding='utf-8'))
     sources=[]
 #     extract_attr_value_zhusu(zhusu,patterns,sources)
     
-    zhiliao=u'''方案一:正畸+正颌联合治疗
-    1.拔除
-    2.直丝弓矫治器
-    3.排齐前牙调整牙轴。
-      4.正颌手术解决颌间关系不调。
-   5.牙槽突植骨欠丰满，根尖1/3处骨缺损，正畸排齐后有可能该牙出现松动或不能保留情况。患者可以考虑再次植骨。
-   6.滞留，牙根完整，位于根方，颊舌向水平阻生，CT示牙根发育不佳，根短，位置低。暂时观察，可以考虑拔除保留。
-方案二:
-    1.暂时不考虑正颌治疗，唇侧固定矫治
-    2.开展牙弓，创造缺失牙间隙，正畸治疗完成后修复缺牙。
-    3.牙槽突植骨处骨质欠丰满，正畸治疗中可能出现牙齿松动不能保留，治疗后需修复治疗。
-    4.患者仍处于生长发育快速期，如果下颌生长量较大，则仍不排除正颌手术可能。
-5.滞留，牙根完整，位于根方，颊舌向水平阻生，CT示牙根发育不佳，根短，位置低。暂时观察，可以考虑拔除保留。
-
-矫治疗程:大约3年
-矫治费用:21750元，不含进口矫治器和种植体费用
-经与患者协商，现选择方案二
-矫治过程中可能出现的问题：
-            1.戴用固定矫正器的患者要特别注意口腔卫生。
-        2.矫正过程中必须按照医嘱定期复诊。
-    3.患者18岁之前均处于生长发育期，若颌骨生长型异常，治疗结果则难以令人满意，异常生长在保持期还可表现为畸形复发，严重的发育异常可能需要结合外科手术进一步治疗。
-    4.现代医学研究发现，正畸患者的颞下颌关节病（TMD）发病率与普通人群的TMD发病率相同，因此一般认为常规正畸治疗既不会引起也不能阻止TMD的发生。
-    5.正畸治疗过程中有可能会出现非正畸医生所能控制的意外情况如牙根吸收、牙髓坏死等，少数患者的牙齿可能由于存在难以发现的根骨粘连而无法移动，以致无法完成治疗计划。
-    6.成年患者常伴发牙周组织炎症而在正畸治疗中或治疗后出现较明显的牙龈组织退缩，易在牙齿颈部尤其前牙间出现小的三角间隙。
-    7.治疗完成后需戴用保持器2年左右，少数患者需要更长时间，甚至终生保持，以防复发。
-    详见《口腔正畸科治疗须知》
-                                      患者签字：'''
+    zhiliao=u'''口腔卫生状况一般，菌斑少量，牙石    牙石(+)    
+牙龈色暗红，质韧，龈乳头稍圆钝，
+合面磨耗达牙本质，PD：3-4mm，BI=1-2，牙龈退缩5-6mm，可及AL
+种植修复
+表格<诊断>内容:'''
     zhiliao_attr=[]
     line=u"缺失，牙槽嵴吸收严重，位点可见种植体，封闭螺丝在，表面软垢较多，种植体舌侧黏膜暗红、轻度肿胀。  有明显过长，牙龈退缩明显，松动I度。"
     
 #     print match_ele_jiancha(patterns["jiancha"]["songdongdu"],"songdongdu",line)
-    zhiliao_attr.append(extract_attr_value_zhiliao(zhiliao, patterns["zhiliao"], sources))
+    zhiliao_attr.append(extract_attr_value_jiancha(zhiliao, patterns["jiancha"], sources))
     print json.dumps(zhiliao_attr,ensure_ascii=False)
     json.dump(zhiliao_attr, codecs.open("zhiliao_attr_test.json", 'w','utf-8'),ensure_ascii=False,indent=2)
-#     
-def main():
-    inpath='records'
-    pattern_path='sources/patterns.json'
-    process_records(inpath,pattern_path)
 
+def search_spe(js,d_sep):   
+    if isinstance(js,dict):
+        for key in js.keys():
+            if isinstance(js.get(key),dict):
+                search_spe(js.get(key),d_sep)
+            elif isinstance(js.get(key),list):
+                if len(js.get(key))>1:
+#                     return True
+# #                     if same_ele(js.get(key))==True:
+                        d_sep.extend(js.get(key))
+    else:
+        return
+
+def same_ele(list):
+    tmp=list[0]
+    for ele in list:
+        if tmp!=ele:
+            return False
+    return True
+
+def test_jiancha():
+    jiancha_attr=[]
+    jiancha_attr_special=[]
+    inpath='records'
+    patterns=json.load(codecs.open('sources/patterns.json', 'r', encoding='utf-8'))
+    for rt, dirs, files in os.walk(inpath):
+            for f in files:
+                fname = os.path.splitext(f)
+                new_path = inpath+os.sep+fname[0] + fname[1]
+                data=xlrd.open_workbook(new_path)
+                table=data.sheets()[0]
+                nrows = table.nrows
+                for i in range(2,nrows):
+                    record=table.cell(i,5).value.encode('utf-8')
+                    m=re.search(r'检\s*查：(?P<content>[\s\S]*)诊\s*断：', record)
+                    if m:
+                        jiancha=m.groupdict()["content"]
+                        result=extract_attr_value_jiancha(jiancha, patterns["jiancha"])
+                        jiancha_attr.append(result)
+    
+    cnt=0
+    cnt_spe=0
+    for jiancha in jiancha_attr:
+        spec=[]
+        search_spe(jiancha,spec)
+        if len(spec)>1:
+            print cnt 
+            jiancha_attr_special.append(jiancha)
+            cnt_spe+=1
+        cnt+=1
+    print cnt_spe
+    json.dump(jiancha_attr_special, codecs.open("jiancha_attr_special.json", 'w','utf-8'),ensure_ascii=False,indent=2)
+
+def main():
+#     inpath='records'
+#     pattern_path='sources/patterns.json'
+#     process_records(inpath,pattern_path)
+#     
+    d_sep=[]
+    js={"key1":["v1","v2"]}
+    
+    search_spe(js,d_sep)
+    
+    print d_sep
 if __name__ == '__main__':
-    main()
+#     main()
 #     debug_record()
+
+    test_jiancha()
