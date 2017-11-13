@@ -568,7 +568,7 @@ def extract_attr_value_jiancha(jiancha,patterns):
                 ccz_dict["上"].append(ccz["shang"])
                 ccz_dict["下"].append(ccz["xia"])
                 attr2value["齿槽座"]=ccz_dict
-    attr2value["jiancha"].append(jiancha)
+#     attr2value["jiancha"].append(jiancha)
     return attr2value
 
 def match_ele_zhenduan(patterns,zhenduan):
@@ -619,22 +619,17 @@ def extract_attr_value_zhenduan(zhenduan,patterns):
         if len(anshi)==0 and len(guxing)==0 and len(maoshi)==0 and len(duozhenduan)==0:
             attr2value["诊断"].append(get_zhenduan_beizhu(line.strip()))
 #     attr2value["诊断"].append({"record":zhenduan})
-    
     return  transfor_dict(attr2value)
 
 def transfor_dict(attr2value):
     attr2value_new={}
     ele_l=attr2value["诊断"]
-    cnt=0
     for i in range(len(ele_l)):
-        attr2value_new["疾病"+str(cnt)]=ele_l[i].get("疾病")
+        attr2value_new["疾病"+str(i)]=ele_l[i].get("疾病")
         if "备注" in ele_l[i].keys():
-            if len(ele_l[i].get("备注"))>1:
-                beizhus=ele_l[i].get("备注")
-                for j in range(len(beizhus)):
-                    attr2value_new["备注"+str(cnt)+str(j)]=beizhus[j]
-            else:
-                attr2value_new["备注"+str(cnt)]=ele_l[i].get("备注")[0]
+            beizhus=ele_l[i].get("备注")
+            for j in range(len(beizhus)):
+                attr2value_new["备注"+str(i)+str(j)]=beizhus[j]
     return attr2value_new
     
 def match_ele_zhiliao(patterns,zhenduan):
@@ -883,14 +878,35 @@ def main():
 #     pattern_path='sources/patterns.json'
 #     process_records(inpath,pattern_path)
 #     
-    d_sep=[]
-    js={"key1":["v1","v2"]}
-    
-    search_spe(js,d_sep)
-    
-    print d_sep
+#     d_sep=[]
+#     js={"key1":["v1","v2"]}
+#     
+#     search_spe(js,d_sep)
+#     
+#     print d_sep
+    attr2value=  {
+    "诊断": [
+        {
+        "疾病": "不可复性盘前移位"
+      },
+      {
+        "疾病": "不可复性盘前移位", 
+        "备注": [
+          "?"
+        ]
+      },
+                 {
+        "疾病": "关节盘移位", 
+        "备注": [
+          "?",
+          "233"
+        ]
+      }
+    ]
+  }
+    transfor_dict(attr2value)
 if __name__ == '__main__':
-#     main()
+    main()
 #     debug_record()
 
-    test_jiancha()
+#     test_jiancha()

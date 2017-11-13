@@ -18,28 +18,11 @@ from collections import defaultdict
 from data_pre.record.match import extract_attr_value_jiancha,\
     extract_attr_value_zhenduan, extract_attr_value_zhiliao
 from util.string import parse_json
+from util.mylogger import log_file
 
-
-def item2dict(graph,cnt,item_pattern,item,record,patterns):
-    m=re.search(item_pattern, record)
-    if m:
-        item_content=m.groupdict()["content"]
-    else:
-        return
-    
-    if item=="检查":
-        item_res=extract_attr_value_jiancha(item_content,patterns["jiancha"])
-    elif item=="诊断":
-        item_res=extract_attr_value_zhenduan(item_content,patterns["zhenduan"])
-    elif item=="治疗计划":
-        item_res=extract_attr_value_zhiliao(item_content,patterns["zhiliao"])
-    
-    return   item_res
-#     parse_json(item_res,attr_dict)
-    
-    prefix="http://www.semanticweb.org/ontolgies/bjoral/"
-    
-    
+logger_jiancha=log_file("jiancha","jiancha")
+logger_zhenduan=log_file("zhenduan", "zhenduan")
+logger_zhenduan=log_file("zhiliao", "zhiliao")
 #     cm=exist(attr_dict,graph)
 #     if cm==False:
 #         s_tmp=''
@@ -79,29 +62,40 @@ def item2dict(graph,cnt,item_pattern,item,record,patterns):
 #     return False           
 #             
 
-def json2rdf(dictlist):
-     
-     
-     
-def record2rdf(graphs,cnt_dict,record,patterns):
+def item2dict(graph,cnt,item_pattern,item,record,patterns):
+    m=re.search(item_pattern, record)
+    if m:
+        item_content=m.groupdict()["content"]
+    else:
+        return
+    
+    if item=="检查":
+        item_res=extract_attr_value_jiancha(item_content,patterns["jiancha"])
+    elif item=="诊断":
+        item_res=extract_attr_value_zhenduan(item_content,patterns["zhenduan"])
+    elif item=="治疗计划":
+        item_res=extract_attr_value_zhiliao(item_content,patterns["zhiliao"])
+    return   item_res
 
+          
+def extract_attr_all(record,patterns):
     jiancha_p=r'检\s*查：(?P<content>[\s\S]*)诊\s*断：'
     zhenduan_p=r'诊\s*断：(?P<content>[\s\S]*)治疗计划：'
     zhiliaojiahua_p=r'治疗计划：(?P<content>[\s\S]*)处\s*置：'
-
-    jiancha_res=item2dict(graphs["jiancha"],cnt_dict["jiancha"],jiancha_p,"检查",record,patterns)
-    zhenduan_res=item2dict(graphs["zhenduan"],cnt_dict["zhenduan"],zhenduan_p,"诊断",record,patterns)
-    zhiliao_res=item2dict(graphs["zhiliao"],cnt_dict["zhiliao"],zhiliaojiahua_p,"检查",record,patterns)
     
-    prefix=u"http://www.semanticweb.org/ontolgies/bjoral/"
-    
-    if jiancha_res!=None and zhenduan_res!=None:
-        o1=rdflib.URIRef(prefix+u"关联")
-        graphs["jiancha2zhenduan"].add((rdflib.URIRef(prefix+jiancha_res),o1,rdflib.URIRef(prefix+zhenduan_res)))
-    if  zhiliao_res!=None and zhenduan_res!=None:  
-        o2=rdflib.URIRef(prefix+u"关联")
-        graphs["zhenduan2zhiliao"].add((rdflib.URIRef(prefix+zhenduan_res),o2,rdflib.URIRef(prefix+zhiliao_res)))
-    
+    m1=re.search(jiancha_p, record)
+    m2=re.search(zhenduan_p, record)
+    m3=re.search(zhiliaojiahua_p, record)
+    if m1 and m2 and m3:
+        jiancha=m1.groupdict()["content"]
+        zhendaun=m2.groupdict()["content"]
+        zhiliao=m3.groupdict()["content"]
+        jiancha_rel=extract_attr_value_jiancha(jiancha,patterns["jiancha"])
+        zhendaun_rel=extract_attr_value_zhenduan(zhendaun,patterns["zhenduan"])
+        zhiliao_rel=extract_attr_value_zhiliao(zhiliao,patterns["zhiliao"])
+        return (jiancha_rel,zhendaun_rel,zhiliao_rel)
+    else:
+        return
 
 def dict_cmp(dict1,dict2):
     if len(dict1)!=len(dict2):
@@ -131,45 +125,61 @@ def dict_cmp(dict1,dict2):
             return False
     return True
 
+def index_d(d1,l1):
+    if len(l1)==0:
+        return -1
+    for i in range(len(l1)): 
+        if dict_cmp(d1,l1[i]):
+            return i
+    return -1
 
+def index_map(*results): 
+    cnt=0   
+    cnt_jiancha=-1
+    cnt_zhenduan=-1
+    cnt_zhiliao=-1
+    jiancha_l=[]
+    zhenduan_l=[]
+    zhiliao_l=[]
+    
+    num_tup=[]
+    for i in range(len(results[0])):
+        if cnt>1000:
+            break
+        item=(results[0][i],results[1][i],results[2][i])
+        tup=[]
+        tup.append(cnt)
+        jiancha_i=index_d(item[0],jiancha_l)
+        zhenduan_i=index_d(item[1],zhenduan_l)
+        zhiliao_i=index_d(item[2],zhiliao_l)
+        if jiancha_i==-1:
+            jiancha_l.append(item[0])
+            cnt_jiancha+=1
+            tup.append(cnt_jiancha)
+        else:
+            tup.append(jiancha_i)
+        if zhenduan_i==-1:
+            zhenduan_l.append(item[1])
+            cnt_zhenduan+=1
+            tup.append(cnt_zhenduan)
+        else:
+            tup.append(zhenduan_i)
+        if zhiliao_i==-1:
+            zhiliao_l.append(item[2])
+            cnt_zhiliao+=1
+            tup.append(cnt_zhiliao)
+        else:   
+            tup.append(zhiliao_i)
+        num_tup.append(tup)
+        print tup
+        cnt+=1 
+    return num_tup,jiancha_l,zhenduan_l,zhiliao_l
 
-def records2rdf():
+def extract_all_attr_dict():
     inpath='records'
     patterns=json.load(codecs.open('sources/patterns.json', 'r', encoding='utf-8'))
     
-    cnt=0
-    jiacha_cnt=0
-    zhenduan_cnt=0
-    zhiliao_cnt=0
-    chuzhi_cnt=0
-    
-    cnt_dict={}
-    cnt_dict["jiancha"]=jiacha_cnt
-    cnt_dict["zhenduan"]=zhenduan_cnt
-    cnt_dict["zhiliao"]=zhiliao_cnt
-    cnt_dict["chuzhi"]=chuzhi_cnt
-    
-    jiancha_graph=rdflib.Graph()
-    zhenduan_graph=rdflib.Graph()
-    zhiliao_graph=rdflib.Graph()
-    chuzhi_graph=rdflib.Graph()
-    
-    jiancha2zhenduan_graph=rdflib.Graph()
-    zhenduan2zhiliao_graph=rdflib.Graph()
-    zhenduan2chuzhi_graph=rdflib.Graph()
-    
-    graphs={}
-    graphs["jiancha"]=jiancha_graph
-    graphs["zhenduan"]=zhenduan_graph
-    graphs["zhiliao"]=zhiliao_graph
-    graphs["chuzhi"]=chuzhi_graph
-    graphs["jiancha"]=jiancha_graph
-    graphs["jiancha2zhenduan"]=jiancha2zhenduan_graph
-    graphs["zhenduan2zhiliao"]=zhenduan2zhiliao_graph
-    graphs["zhenduan2chuzhi"]=zhenduan2chuzhi_graph
-    
-    
-    
+    results=[]
     for rt, dirs, files in os.walk(inpath):
         for f in files:
             fname = os.path.splitext(f)
@@ -179,34 +189,82 @@ def records2rdf():
             nrows = table.nrows
             for i in range(2,nrows):
                 record=table.cell(i,5).value.encode('utf-8')
-                record2rdf(graphs,cnt_dict,record,patterns)
-                #record2rdf(record,chuzhi_graph,patterns)
-                
-                print cnt,cnt_dict["jiancha"],cnt_dict["zhenduan"],cnt_dict["zhiliao"]
-                cnt+=1
+                res=extract_attr_all(record,patterns)
+                if res!=None:
+                    results.append(res)
+                    
+    jiancha_out="jiancha.json"               
+    json.dump([item[0] for item in results], codecs.open(jiancha_out,'w','utf-8'),ensure_ascii=False,indent=2)
+    
+    zhenduan_out="zhenduan.json"
+    json.dump([item[1] for item in results], codecs.open(zhenduan_out,'w','utf-8'),ensure_ascii=False,indent=2)
+    
+    zhiliao_out="zhiliao.json"
+    json.dump([item[2] for item in results], codecs.open(zhiliao_out,'w','utf-8'),ensure_ascii=False,indent=2)
+    print "attr extract over"
+
+def dict2rdf(d1,item,index,graph):
+    prefix=u"http://www.semanticweb.org/ontolgies/bjoral/"
+    s=rdflib.URIRef(prefix+item+str(index))
+    for key,value in d1.iteritems():
+        p=rdflib.URIRef(prefix+key)
+        if isinstance(value, list):
+            for ele in value:
+                if isinstance(ele, dict):
+                    dict2rdf(ele,key,index,graph)
+                elif isinstance(ele,str) or isinstance(ele,unicode):   
+                    o=rdflib.URIRef(prefix+ele)
+                    graph.add((s,p,o))
+        elif isinstance(value, dict):
+            dict2rdf(value,key,index,graph)
+
+def list2rdf(l1,item,graph):
+    for index,d1 in enumerate(l1):
+        dict2rdf(d1,item,index,graph)
+ 
+   
+def records2rdf():
+    jiancha_out="jiancha.json" 
+    zhenduan_out="zhenduan.json"
+    zhiliao_out="zhiliao.json"
+    
+    jiancha=json.load(codecs.open(jiancha_out,encoding="utf-8"))
+    zhenduan=json.load(codecs.open(zhenduan_out,encoding="utf-8"))
+    zhiliao=json.load(codecs.open(zhiliao_out,encoding="utf-8"))
+    
+    results=[jiancha,zhenduan,zhiliao]
+    num_tup,jiancha_l,zhenduan_l,zhiliao_l=index_map(*results)
+    
+    jiancha_graph=rdflib.Graph()
+    zhenduan_graph=rdflib.Graph()
+    zhiliao_graph=rdflib.Graph()
+#     list2rdf(jiancha_l,"检查",jiancha_graph)
+    list2rdf(zhenduan_l,"诊断",zhenduan_graph)
+#     list2rdf(zhiliao_l,"治疗计划",zhiliao_graph)
+    
+    jiancha2zhenduan_graph=rdflib.Graph()
+    zhenduan2zhiliao_graph=rdflib.Graph()
+#     zhenduan2chuzhi_graph=rdflib.Graph()
+    
+    for tup in num_tup:
+        prefix=u"http://www.semanticweb.org/ontolgies/bjoral/"
+        s=rdflib.URIRef(prefix+"检查"+str(tup[1]))
+        p=rdflib.URIRef(prefix+"关联")
+        o=rdflib.URIRef(prefix+"诊断"+str(tup[2]))
+        jiancha2zhenduan_graph.add((s,p,o))
+        
+        s1=rdflib.URIRef(prefix+"诊断"+str(tup[2]))
+        p1=rdflib.URIRef(prefix+"关联")
+        o1=rdflib.URIRef(prefix+"治疗计划"+str(tup[3]))
+        zhenduan2zhiliao_graph.add((s1,p1,o1))
+        
     jiancha_graph.serialize("rdf/jiancha.rdf",encoding='utf-8') 
     zhenduan_graph.serialize("rdf/zhenduan.rdf",encoding='utf-8') 
     zhiliao_graph.serialize("rdf/zhiliao.rdf",encoding='utf-8') 
-    chuzhi_graph.serialize("rdf/chuzhi.rdf",encoding='utf-8') 
+#     chuzhi_graph.serialize("rdf/chuzhi.rdf",encoding='utf-8') 
     
     jiancha2zhenduan_graph.serialize("rdf/jiancha2zhenduan.rdf",encoding='utf-8') 
     zhenduan2zhiliao_graph.serialize("rdf/zhenduan2zhiliao.rdf",encoding='utf-8') 
-    zhenduan2chuzhi_graph.serialize("rdf/zhenduan2chuzhi.rdf",encoding='utf-8')           
-#                 jiancha=re.findall(r'检\s*查：([\s\S]*)诊\s*断：',record)[0].strip()
-#                 zhenduan=re.findall(r'诊\s*断：([\s\S]*)治疗计划：',record)[0].strip()
-#                 zhiliaojihua=re.findall(r'治疗计划：([\s\S]*)处\s*置：',record)[0].strip()
-#                 chuzhi=re.findall(r'处\s*置：([\s\S]*)签名',record)[0].strip()
-#                 
-#                 jiancha_res=extract_attr_value_jiancha(jiancha,patterns["检查"])
-#                 zhenduan_res=extract_attr_value_zhenduan(zhenduan,patterns["诊断"])
-#                 #extract_attr_value_chuzhi()
-#                 zhiliaojihua_res=extract_attr_value_zhiliao(zhiliaojihua,patterns["治疗计划"])
-#                 
-#                 jiancha_attr={}
-#                 
-#                 parse_json(jiancha_res)
-#                 parse_json(zhenduan_res)
-#                 parse_json(zhiliaojihua_res)
                 
 def test_rdf():
     
@@ -237,29 +295,16 @@ def test_rdf():
     p = rdflib.URIRef(prefix+'叩痛')  
     o = rdflib.URIRef(prefix+'-')  
     
-    s = rdflib.URIRef(prefix+'检查1')  
-    p1 = rdflib.URIRef(prefix+'CBCT')  
-    o1 = rdflib.URIRef(prefix+'CBCT1')
-    
-    s = rdflib.URIRef(prefix+'CBCT1')  
+    s1 = rdflib.URIRef(prefix+'检查')  
     p1 = rdflib.URIRef(prefix+'叩痛')  
-    o1 = rdflib.URIRef(prefix+'2')
+    o1 = rdflib.URIRef(prefix+'+')  
     
-    s = rdflib.URIRef(prefix+'检查2')  
-    p1 = rdflib.URIRef(prefix+'id')  
-    o1 = rdflib.URIRef(prefix+'2')
-    
-    s2 = rdflib.URIRef(prefix+'诊断')  
-    p2 = rdflib.URIRef(prefix+'疾病')  
-    o2 = rdflib.URIRef(prefix+'死去')  
-     
-    s2 = rdflib.URIRef(prefix+'诊断')  
-    p21 = rdflib.URIRef(prefix+'id')  
-    o21 = rdflib.URIRef(prefix+'1') 
+
       
     g1 = rdflib.Graph()  
     g1.add((s, p, o))  
-#     g1.add((s1, p1, o1))
+
+    g1.add((s1, p1, o1))
     g1.serialize('zhongyao1.rdf') # 默认以'xml'格式存储  
       
     g2 = rdflib.Graph()  
@@ -288,76 +333,14 @@ def test_rdf():
             print item
 
 def main():
-    d1=  {
-    "卫生状况": [
-        "正常",
-      "一般"
-      
-    ], 
-    "修复体": [
-      "全冠"
-    ], 
-    "牙冠": [
-      "全冠"
-    ], 
-    "松动度": [
-      "不"
-    ], 
-    "咬合": [
-      "无明显异常"
-    ], 
-    "松动": [
-      "全冠修复体不"
-    ], 
-    "CBCT": {
-      "骨板": [
-        "唇颊侧骨板完整厚度约1mm"
-      ], 
-      "骨质": [
-        "骨质中等"
-      ]
-    }, 
-    "叩痛": [
-      "-"
-    ]
-  }
-    d2={
-    "卫生状况": [
-      "一般",
-      "正常"
-    ], 
-    "修复体": [
-      "全冠"
-    ], 
-    "牙冠": [
-      "全冠"
-    ], 
-    "松动度": [
-      "不"
-    ], 
-    "咬合": [
-      "无明显异常"
-    ], 
-    "松动": [
-      "全冠修复体不"
-    ], 
-    "CBCT": {
-      "骨板": [
-        "唇颊侧骨板完整厚度约1mm"
-      ], 
-      "骨质": [
-        "骨质中等"
-      ]
-    }, 
-    "叩痛": [
-      "-"
-    ]
-  }
-    print d1==d2
-    print dict_cmp(d1,d2)
+ 
+#     print d1==d2
+#     print dict_cmp(d1,d2)
+    pass
 
 if __name__ == '__main__':
+#     extract_all_attr_dict()
 #     test_rdf()
-#     records2rdf()
-    main()
+    records2rdf()
+#     main()
  

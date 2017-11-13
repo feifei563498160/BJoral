@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.semanticweb.org/ontolgies/bjoral/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断3">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断0">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划162"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划264"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划66"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划436"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划274"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划537"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划228"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划184"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划179"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划520"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划442"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划238"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划338"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划306"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划1"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划33"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划376"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划335"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划498"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划308"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划441"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划12"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划6"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划385"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划202"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划82"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划171"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划250"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划477"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划351"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划212"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划213"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划200"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划186"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划330"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划27"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划405"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划197"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划292"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划242"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划364"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划363"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划245"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划497"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划276"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划426"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划336"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划510"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划286"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划263"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划404"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划182"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划38"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划39"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划329"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划524"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划3"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划481"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划26"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划294"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划240"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划544"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划371"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划367"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划91"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划519"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划433"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划449"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划437"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划358"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划7"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划547"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划403"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划327"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划11"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划299"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划500"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划261"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划136"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划69"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划77"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划475"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划501"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划88"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划293"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划259"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划74"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划456"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划19"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划546"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划360"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划17"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划313"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划470"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划473"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划239"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划485"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划438"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划388"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划300"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划472"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划365"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划431"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划410"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划506"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划499"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划231"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划450"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划350"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划331"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划235"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划253"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划521"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划312"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划256"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划355"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划373"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划194"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划53"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划548"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划209"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划435"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划310"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划476"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划30"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划561"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划454"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划448"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划204"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划389"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划432"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划406"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划325"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划18"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划379"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划332"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划265"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划424"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划183"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划494"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划399"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划296"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划284"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划462"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划13"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划24"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划392"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划275"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划343"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划560"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划425"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划210"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划407"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划357"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划199"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划415"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划251"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划457"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划83"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划342"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划346"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划434"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划486"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划50"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划301"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划307"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划220"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划180"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划352"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划289"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划516"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划58"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划526"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划518"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划446"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划532"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划366"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划447"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划507"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划137"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划543"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划374"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划196"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划140"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划323"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划230"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划252"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划326"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划496"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划51"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划188"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划84"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划205"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划535"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划139"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划452"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划234"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断5">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划376"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划70"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划158"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划10"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划123"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划47"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划458"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划90"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划380"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划161"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划191"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划304"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划361"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划105"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划302"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划309"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划44"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划165"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划512"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划141"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划484"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划503"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划160"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划71"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划236"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划116"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划319"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划198"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划219"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划149"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划493"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划246"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划176"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划262"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划222"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断2">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划474"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划522"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划122"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划370"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划409"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划488"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划130"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划91"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划384"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划132"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划562"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划46"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划133"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划201"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划60"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划540"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划45"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划142"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划334"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划552"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划471"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划54"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划277"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划128"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划347"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划175"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划412"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划563"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划460"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划78"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划444"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划557"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划416"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划9"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划445"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划5"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划354"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划22"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划161"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划170"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划81"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划190"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划418"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划393"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划69"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划96"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划508"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划377"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划145"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划55"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划114"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划97"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划369"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划398"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划381"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划17"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划21"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划52"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划305"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划422"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划495"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划298"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划192"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划174"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划529"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划554"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划61"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划153"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划98"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划411"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划427"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划395"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划322"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划267"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划65"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划49"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划453"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划401"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划421"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划281"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划112"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划102"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划40"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划463"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划534"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划555"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划68"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划400"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划80"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划378"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划527"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划414"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划120"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划89"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划152"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划419"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划121"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划348"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划376"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划440"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划4"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划467"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划539"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划514"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划480"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划531"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划36"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划468"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划207"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划113"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划525"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划530"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划556"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划558"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划387"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划429"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划492"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划163"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划428"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划455"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划134"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划16"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划408"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划353"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划504"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划417"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划14"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划127"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划295"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划280"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划402"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划491"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划559"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划146"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划478"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划459"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划67"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划420"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划154"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划396"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划451"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划533"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划59"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划118"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划513"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划390"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划15"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划397"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划430"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划465"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划382"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划542"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划156"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划23"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划511"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划550"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划48"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划270"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划29"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划413"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划211"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划57"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划166"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划106"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划223"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划553"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划386"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划19"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划502"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划487"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划103"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划493"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划461"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划368"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划383"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划545"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划528"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划483"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划56"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划32"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划129"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划541"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断13">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划35"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划164"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划70"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划111"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划93"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划85"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划271"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断23">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划126"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划151"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划362"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划249"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划193"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划87"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划341"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划320"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划273"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断29">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划185"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划150"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断69">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断24">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划255"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划99"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划243"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断16">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断7">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划278"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划315"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划241"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划279"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划19"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划217"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划31"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划189"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划232"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划282"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划125"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划248"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划134"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划20"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划324"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划244"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划64"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划254"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划337"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划101"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划229"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划94"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划344"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划206"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划318"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划509"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划316"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划288"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断11">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划19"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划92"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划107"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划290"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划73"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划479"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划148"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划439"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断42">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划224"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划266"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断15">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划63"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划86"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划138"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划128"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划134"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划216"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划157"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划42"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划167"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划72"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划108"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划173"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划515"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断19">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断17">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断64">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划24"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划372"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划490"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划464"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断55">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划303"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断28">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断20">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划66"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划147"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划100"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划70"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划349"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划168"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划131"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划144"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断68">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断58">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划317"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断37">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划203"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断4">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划482"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划466"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断10">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划172"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划117"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划28"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划155"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断43">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断21">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划423"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断1">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划1"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划258"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划391"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划215"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划549"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划237"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划538"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划359"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断6">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断33">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断12">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划226"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划115"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划34"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划95"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划314"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划119"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划178"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划109"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划218"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断73">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断36">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断63">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划356"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断75">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断18">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断27">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断25">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划268"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划269"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划110"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划272"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划169"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划321"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划340"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断72">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划469"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断35">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断51">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断76">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划517"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断38">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划208"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断79">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划536"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断31">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划159"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断50">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断80">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断74">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划489"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断47">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划257"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断59">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断60">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断34">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划19"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划187"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断26">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划124"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断9">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断46">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断32">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断61">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划339"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断39">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断52">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断56">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断49">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划283"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断8">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断14">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断78">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断45">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划233"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断40">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断57">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断65">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断53">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划293"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断41">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划221"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断44">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断77">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划523"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断62">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划345"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断54">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划297"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断67">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断48">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划260"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断71">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划443"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断66">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断70">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断22">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/诊断30">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/治疗计划8"/>
+  </rdf:Description>
+</rdf:RDF>

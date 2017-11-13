@@ -8,4 +8,5 @@ encoding//data_pre/record/similar_attr.py=utf-8
 encoding//data_pre/record/test.py=utf-8
 encoding//util/data_structure.py=utf-8
 encoding//util/db.py=utf-8
+encoding//util/mylogger.py=utf-8
 encoding//util/string.py=utf-8

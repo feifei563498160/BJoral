@@ -1,0 +1,2328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.semanticweb.org/ontolgies/bjoral/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查53">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断16"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断68"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查490">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查672">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查717">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查1">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断36"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断1"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查236">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查101">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断34"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查180">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查41">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查247">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查228">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查406">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查301">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查12">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查574">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查538">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查291">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查0">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断76"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查63">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查474">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查275">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查573">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查532">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查119">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查688">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查545">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查322">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查184">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查397">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查353">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查307">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查517">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查203">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查496">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查183">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查168">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查57">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查29">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查227">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查245">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查442">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查558">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查152">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查392">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断58"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查423">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查234">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查103">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查225">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查433">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查541">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查299">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查690">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查753">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查49">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查738">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查674">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查323">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查543">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查466">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查375">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查179">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查265">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查42">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查115">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查290">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查587">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查40">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查31">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查425">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查531">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查741">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查578">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查431">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查72">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查112">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查681">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查429">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查87">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查264">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查276">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查569">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查48">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查352">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查73">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查418">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查735">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查44">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查46">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查311">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查698">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查226">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查589">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查181">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查243">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查89">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查752">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查132">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查215">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查149">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查308">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查331">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查626">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查65">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查588">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查237">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查100">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查414">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查109">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查79">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查700">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查511">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查8">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断4"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断71"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查256">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查376">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查162">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查147">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查421">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查411">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查45">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查35">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查468">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查43">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查348">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查482">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查458">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查135">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查607">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查113">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查33">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查173">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查441">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查551">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查473">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查23">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查305">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查450">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查695">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查144">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查316">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查154">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查259">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查77">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查244">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查213">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查142">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查153">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查71">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查70">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查730">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查680">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查107">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查715">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查304">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查596">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查635">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查553">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查197">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查669">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查50">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查6">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查644">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查289">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查405">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查97">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查7">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查94">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查505">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查138">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查368">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查504">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查54">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查599">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查624">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查486">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查192">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查523">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查594">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查202">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查385">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查187">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查354">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查503">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查98">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查125">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查713">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查252">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查254">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查102">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查2">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查327">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查146">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断51"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查388">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查499">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查412">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查209">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断29"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查584">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查520">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查58">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查462">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查271">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查56">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查346">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查282">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查81">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查292">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查240">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查621">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查212">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查640">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查759">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查529">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查224">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查597">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查383">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查461">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查629">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查683">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查61">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断29"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查365">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查230">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查748">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查592">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查641">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查371">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查518">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查703">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查164">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查190">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查750">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查176">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查156">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查18">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查340">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查303">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断24"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查570">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查328">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查498">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查415">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查701">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查66">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查341">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查261">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查288">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断24"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查692">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查174">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查320">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查124">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查394">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查357">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查600">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查582">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查21">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查427">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查666">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查612">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查347">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查84">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查208">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查544">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查428">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查159">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查80">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查120">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查757">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查338">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查627">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查300">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查572">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查399">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查51">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查205">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查580">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查355">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查699">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查743">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查533">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查361">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查268">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查491">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查193">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查722">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查562">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查631">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查106">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查32">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查616">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查515">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查171">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查494">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查449">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查435">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查108">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查74">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查697">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查734">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查258">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查114">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查637">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查105">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查309">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查598">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查360">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查566">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查200">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查410">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查250">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查444">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查527">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查733">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查424">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查117">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查534">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查222">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查711">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查78">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查613">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查660">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查586">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查643">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查260">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查284">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查487">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查374">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查3">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查128">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查350">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查9">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查325">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查650">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查92">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查110">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查463">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查407">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查689">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查370">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查272">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查195">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查554">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查167">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查409">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查161">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查145">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断69"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查126">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查137">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查241">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查314">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查85">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查619">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查492">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查602">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查207">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查93">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查90">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查131">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查417">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查665">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查439">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查170">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查386">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查670">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查382">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查732">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查745">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查661">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查756">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查508">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查274">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查216">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查210">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查478">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查720">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查253">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查659">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查130">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查214">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查656">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查296">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查186">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查127">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查437">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查163">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查507">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查653">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查362">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查604">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查38">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查623">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查339">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查702">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查657">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查5">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查251">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查134">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查293">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查140">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查495">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查27">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查194">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查658">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查608">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查514">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查401">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查654">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查185">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查221">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查549">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查539">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查639">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查155">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查129">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查445">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查333">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查696">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查469">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查96">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查270">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查68">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查682">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查522">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查324">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查605">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查615">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查62">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查642">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查453">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查177">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查432">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查634">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查709">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查488">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查37">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查618">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查561">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查219">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查30">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查601">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查556">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查91">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查257">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查591">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查281">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查740">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查590">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查636">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查479">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查667">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查351">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查663">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查196">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查287">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查329">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查336">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查148">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查552">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查373">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查571">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查393">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查267">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查675">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查60">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查563">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查451">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查17">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查747">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查723">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查484">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查231">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查358">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查581">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查116">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查139">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查628">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查739">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查24">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查603">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查277">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查342">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查440">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查47">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查755">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查452">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查381">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查497">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查321">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查133">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查122">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查403">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查298">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查389">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查506">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查513">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查312">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查136">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查649">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查150">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查26">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查595">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查239">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查454">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查579">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查537">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查457">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查229">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查175">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查372">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查724">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查295">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查330">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查83">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查15">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查157">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查143">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查447">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查687">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查446">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查345">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查283">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查593">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查464">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查151">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查76">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查396">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查218">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查67">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查59">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查64">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查16">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查384">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查542">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查721">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查313">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查489">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查75">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查343">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查36">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查189">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查662">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查310">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查676">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查378">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查377">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查420">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查248">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查141">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查337">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查477">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查273">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查448">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查211">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查334">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查13">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查678">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查430">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查280">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查395">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查483">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查671">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查622">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查188">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查86">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查684">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查255">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查691">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查286">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查625">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查548">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查326">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查716">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查620">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查501">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查714">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查465">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查198">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查317">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查390">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查638">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查344">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查182">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查178">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查540">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查559">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查391">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查28">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查408">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查502">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查262">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查526">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查510">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查269">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查516">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查422">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查655">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查459">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查118">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查575">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查443">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查746">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查751">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查297">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查585">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查356">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查379">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查315">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查485">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查39">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查725">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查560">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查567">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查22">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查547">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查718">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查302">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查165">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查349">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查509">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查400">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查369">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查160">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查279">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查4">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查576">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查632">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查500">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查220">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查404">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查246">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查306">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查82">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查455">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查736">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查614">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查364">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查380">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查476">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查204">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查172">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查95">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查679">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查648">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查546">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查742">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查744">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查434">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查519">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查704">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查564">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查11">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查20">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查754">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查685">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查470">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查14">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查630">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查530">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查707">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查471">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查719">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查123">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查426">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查436">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查104">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查55">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查610">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查169">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查677">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查278">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查191">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查472">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查568">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查387">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查266">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查647">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查524">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查335">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查706">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查201">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查467">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查493">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查710">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查111">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查402">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查606">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查475">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查668">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查758">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查233">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查525">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查728">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查318">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查535">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查609">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查363">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查34">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查359">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查480">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查651">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查555">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查749">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查88">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查413">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查25">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查673">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查460">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查705">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查249">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查238">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查737">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查727">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查99">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查223">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查419">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查158">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查583">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查536">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查645">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查217">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查726">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查166">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查646">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查206">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查285">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查617">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查577">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查366">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查693">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查708">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查199">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查611">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查712">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查652">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查367">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查398">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查319">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查565">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查19">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查633">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查69">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查10">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查528">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查760">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查731">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查664">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查550">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查332">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查521">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查121">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查512">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查242">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查456">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查232">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查729">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查294">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查52">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查263">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查438">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查235">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查481">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查416">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查686">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查557">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontolgies/bjoral/检查694">
+    <ns1:关联 rdf:resource="http://www.semanticweb.org/ontolgies/bjoral/诊断0"/>
+  </rdf:Description>
+</rdf:RDF>
